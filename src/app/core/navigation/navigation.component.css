@@ -1,0 +1,29 @@
+p {
+    background: rgb(0, 128, 182);
+    background: linear-gradient(0deg, rgba(0, 128, 182, 1) 0%, rgba(0, 128, 182, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 1.5em;
+    padding: 0.5em 1.5em;
+    border-radius: 0.3em;
+}
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 0.5em 1.5em;
+    color: #000;
+    font-size: 1.5em;
+    border: 3px solid #000;
+    border-radius: 30px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.nav-btn:hover {
+    background-color: deeppink;
+    color: #000;
+}
